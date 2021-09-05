@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chinar Consultants</title>
+  <!--******************************************************** bootstrap ******************************************************-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+  <!--******************************************************** Css ******************************************************-->
+  <link rel="stylesheet" type='text/css' media='screen' href='{% static "css/style.css" %}'>
+  <link rel="stylesheet" type='text/css' media='screen' href='{% static "css/queries.css" %}'>
+
+  <!--********************************************** Fonts ******************************************************-->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!--*************************************************** Icons ************************************-->
+  <script src="https://kit.fontawesome.com/e29a563bd6.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg bg-dark">
+      <a class="navbar-brand logo" href="#"><img class="logo-img" src='{% static "img/leaf.png" %}' alt="logo"> Chinar Consultants</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto">
+          <li class="navbar-item">
+            <a class="nav-links nav-link" href="">About</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-links nav-link" href="">Services</a>
+          <li class="navbar-item">
+            <a class="nav-links nav-link" href="#section-pricing">Pricing</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-links nav-link" href="#contact">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+    <!--****************************** section header-page ***********************-->
+
+
+    <div class="container-fluid header-page">
+      <div class="container header-text-box">
+        <h2>Book Keeping</h2>
+        <h1>Taxation</h1>
+        <button type="button" class="ml-auto btn btn-lg full-button">Our Services</button>
+        <button type="button" class="ml-auto btn btn-lg ghost-button">Why Choose Us?</button>
+      </div>
+    </div>
+
+  </header>
+
+
+
+  <section class="section-our-intro">
+    <div class="container intro-content">
+      <h2>Who We Are</h2>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <p>We are a Dubai-based chartered accountant firm,enabling our clients to gain a clear strategic and competitive advantage, while at all times maintaining ethics of the highest order.</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <p>Maintaining and taking care of Taxation for your company takes a lot of time, energy and quite often requires technically savvy skills, that are not that common knowledge…</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+
+  <section id="section-services">
+
+    <div class="container">
+      <h2 class="services-head">Our Services</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6 services">
+          <i class="fas fa-calculator fa-3x"></i>
+          <h5>Auditing & Assurance</h5>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 services">
+          <i class="fas fa-coins fa-3x"></i>
+          <h5>Integrated Financial Services</h5>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 services">
+          <i class="far fa-handshake fa-3x"></i>
+          <h5>Consultancy Services</h5>
+        </div>
+      </div>
+      <div class="row">
+        <p class="services-para">Where a service trust or labour hire entity provides services to a client and the client can reasonably be expected to rely upon the service to satisfy their liabilities or obligations or claim entitlements under a
+          taxation law, the service trust or labour hire entity may be providing a tax agent service and be required to register as a tax agent.</p>
+      </div>
+    </div>
+
+  </section>
+
+<!--************************************************ section-testimonials ************************************************-->
+  <section id="section-testimonials">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+
+          <div class="slide-1 container-fluid">
+            <div class="testimonials-box">
+              <h1>Integrated Financial Services</h1>
+            </div>
+            <p>There is a legal requirement that you must not charge or receive a fee or other reward if you provide a service which you know or should reasonably know is a tax agent service and you are not a registered tax agent.These registration
+              requirements are not part of the definition of tax agent services, but are set out in section 50-5 of the Tax Agent Services Act 2009 (TASA).</p>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+          <div class="slide-2 container-fluid">
+            <div class="testimonials-box">
+              <h1>Highly Skilled Staff</h1>
+            </div>
+            <p>International Auditing & Consultancy Center practices in the field of accounting and bookkeeping is highly professional using clear and simple accounting rules. Our Accounting Department is staffed with highly qualified accountants who
+              are experts in that field. The in-depth knowledge and experience guarantee safe and diligent operations within MENA, GCC and international standards of accounting.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="slide-3 container-fluid">
+            <div class="testimonials-box">
+              <h1>Corporate Support Services</h1>
+            </div>
+            <p>Our corporate support services team provides practical and effective assistance to organizations across a wide range of industries. The team aims to provide value-added services and individually tailored solutions that works for the
+              needs of each client whether it is redesigning your business process, incorporation of a new business, regulatory compliance or outsourcing administrative functions.</p>
+          </div>
+
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+</section>
+<!--****************************************************** section-clients *****************************************************-->
+    <section id="section-clients">
+      <h2>Our Clients</h2>
+      <div class="container">
+        <div class="row">
+          <div class="client-image col-lg-3 col-md-6 col-sm-12">
+            <img class="client-1" src='{%static "img/c1.png" %}' alt="client-1 image">
+          </div>
+          <div class="client-image col-lg-3 col-md-6 col-sm-12">
+            <img class="client-2" src='{%static "img/c2.png" %}' alt="client-2 image">
+          </div>
+          <div class="client-image col-lg-3 col-md-6 col-sm-12">
+            <img class="client-3" src='{%static "img/c3.jpg" %}' alt="client-3 image">
+          </div>
+          <div class="client-image col-lg-3 col-md-6 col-sm-12">
+            <img class="client-4" src='{%static "img/c4.png" %}' alt="client-4 image">
+          </div>
+        </div>
+      </div>
+</section>
+
+      <section id="section-pricing">
+        <h2>PRICING</h2>
+        <div class="card-deck">
+          <div class="card">
+            <div class="card-header">
+                  <h3>PREMIUM</h3>
+            </div>
+            <div class="card-body">
+              <p class="plan-price-month">800د.إ <span>/ month</span> </p>
+              <p>Companies,Organizations,Businesses</p>
+            </div>
+            <div class="card-footer">
+                  <button type="button" class="btn full-button">Book Us</button>
+            </div>
+
+          </div>
+          <div class="card">
+            <div class="card-header">
+                  <h3>STANDARD</h3>
+            </div>
+
+            <div class="card-body">
+              <p class="plan-price-month">500د.إ <span>/ month</span> </p>
+                <p>Hotels,Restaurents,Institutions etc.</p>
+            </div>
+            <div class="card-footer">
+                  <button type="button" class="btn ghost-button">Book Us</button>
+            </div>
+
+          </div>
+
+
+          <div class="card">
+            <div class="card-header">
+                  <h3>STARTER</h3>
+            </div>
+
+            <div class="card-body">
+              <p class="plan-price-month">200د.إ <span>/ month</span> </p>
+                <p>Shops,Mini-Marts,Cafe's etc.</p>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn ghost-button">Book Us</button>
+            </div>
+
+          </div>
+        </div>
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+<section id="contact">
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="contact-col-1 col-lg-4 col-md-4 col-sm-6">
+        <h3 class="footer-logo">Chinar Consultants</h3>
+        <ul class="footer-icons">
+        <li> <a href="#"><i class="fab fa-facebook"></i></a> </li>
+        <li> <a href="#"><i class="fab fa-google-plus"></i></a> </li>
+        <li> <a href="#"><i class="fab fa-twitter"></i></a> </li>
+        <li> <a href="#"><i class="fab fa-instagram"></i></a> </li>
+        </ul>
+
+      </div>
+      <div class="contact-col col-lg-4 col-md-4 col-sm-6">
+          <h3>Support</h3>
+          <ul class="support-list">
+            <li><a href="#">News</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Registration</a></li>
+            <li><a href="#">License</a></li>
+          </ul>
+      </div>
+      <div class="contact-last-col col-lg-4 col-md-4 col-sm-6">
+          <h3>Contact us </h3>
+          <input class="contact-msg" type="text" name="message"  placeholder="Enter Your Message Here">
+          <input class="contact-btn btn btn-primary" type="submit" name="submit" value="submit">
+      </div>
+
+    </div>
+     <p class="copy-w">Copyright © 2021 by Zengen Network. All rights reserved. </p>
+    </div>
+
+</section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+</body>
+
+</html>
