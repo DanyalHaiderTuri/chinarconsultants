@@ -1,2 +1,2 @@
-web: gunicorn chinarconsultants.wsgi
+web:gunicorn chinarconsultants.wsgi
 
